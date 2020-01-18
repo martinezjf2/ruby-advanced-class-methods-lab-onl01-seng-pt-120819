@@ -62,7 +62,6 @@ class Song
     song.artist_name = split_filename[0]
     song.save
     song
-
   end
 
   def destroy_all
